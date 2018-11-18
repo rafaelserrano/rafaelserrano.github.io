@@ -5,7 +5,6 @@
     Author: Ryan Fitzgerald
     Repo: https://github.com/RyanFitzgerald/devportfolio-template
     Issues: https://github.com/RyanFitzgerald/devportfolio-template/issues
-
     Description: This file contains all the styles associated with the page
     that don't come from third party libraries. This file gets compiled using
     Gulp and send to the /css folder which is then loaded on the page.
@@ -37,12 +36,12 @@ body.active{
     color:#7e8890;
     margin:0 0 15px 0
 }
-.no-js #experience-timeline>div p
-{color:#74808a;
+.no-js #experience-timeline>div p{
+    color:#74808a;
     font-size:0.9em;
     margin:0
-}.
-no-js #experience-timeline:before,.no-js #experience-timeline:after{
+}
+.no-js #experience-timeline:before,.no-js #experience-timeline:after{
     content:none
 }
 @keyframes dropHeader{
@@ -97,11 +96,10 @@ header.active{
 }
 header.sticky{
     position:fixed;
-    z-index:999
+    z-index:998
 }
 #menu.active{
-    display:block;
-
+    display:block
 }
 #mobile-menu-open{
     display:none;
@@ -141,7 +139,8 @@ footer{
     padding-top:20px
 }
 .copyright p{
-    margin:0;color:#74808a
+    margin:0;
+    color:#74808a
 }
 .top{
     text-align:center
@@ -152,7 +151,8 @@ footer{
     margin:15px auto 0 auto;
     width:35px;
     height:35px;
-    border-radius:50%;border:3px solid #b9bfc4;
+    border-radius:50%;
+    border:3px solid #b9bfc4;
     text-align:center
 }
 .top i{
@@ -247,7 +247,8 @@ footer{
     letter-spacing:0.05em;
     line-height:0.9em
 }
-#lead-content h2{color:#a0cfee;
+#lead-content h2{
+    color:#a0cfee;
     font-weight:500;
     font-size:2.25em;
     margin-bottom:15px
@@ -342,7 +343,8 @@ footer{
     height:40px;
     background:#3498db;
     background:linear-gradient(to bottom, #3498db, rgba(52,152,219,0));
-    top:100%;left:303px
+    top:100%;
+    left:303px
 }
 .vtimeline-content{
     margin-left:350px;
@@ -396,7 +398,8 @@ footer{
     width:260px;
     text-align:right;
     position:absolute;
-    left:0;top:10px;
+    left:0;
+    top:10px;
     font-weight:300;
     color:#374054
 }
@@ -430,7 +433,7 @@ footer{
     color:#74808a;
     clear:both;
     font-weight:500;
-    margin:0 0 15px 0
+    margin:0 5px 15px 0
 }
 .education-block p,.education-block ul{
     margin:0;
@@ -540,19 +543,23 @@ footer{
     color:#fff
 }
 #contact-form input:-moz-placeholder,#contact-form textarea:-moz-placeholder{
-    color:#fff;opacity:1
+    color:#fff;
+    opacity:1
 }
 #contact-form input::-moz-placeholder,#contact-form textarea::-moz-placeholder{
-    color:#fff;opacity:1
+    color:#fff;
+    opacity:1
 }
 #contact-form input:-ms-input-placeholder,#contact-form textarea:-ms-input-placeholder{
     color:#fff
 }
 #contact-form input:focus,#contact-form textarea:focus{
-    outline:none;background:#16527a
+    outline:none;
+    background:#16527a
 }
 #contact-form textarea{
-    height:150px;resize:none
+    height:150px;
+    resize:none
 }
 #contact-form button{
     display:block;
@@ -563,13 +570,16 @@ footer{
     border:none;
     color:#3498db;
     font-weight:700;
-    box-shadow:0 1px 3px rgba(0,0,0,0.12),0 1px 2px rgba(0,0,0,0.24);transition:.5s ease all
+    box-shadow:0 1px 3px rgba(0,0,0,0.12),0 1px 2px rgba(0,0,0,0.24);
+    transition:.5s ease all
 }
 #contact-form button:hover{
     box-shadow:0 10px 20px rgba(0,0,0,0.19),0 6px 6px rgba(0,0,0,0.23)
 }
 .optional-section{
-    padding:50px 15px;text-align:center;border-top:1px solid #dcd9d9
+    padding:50px 15px;
+    text-align:center;
+    border-top:1px solid #dcd9d9
 }
 .optional-section h2{
     color:#374054
@@ -602,7 +612,8 @@ footer{
     padding:0 0 0 15px
 }
 @media only screen and (max-width: 750px){
-    #experience-timeline:before,#experience-timeline:after{left:23px
+    #experience-timeline:before,#experience-timeline:after{
+        left:23px
     }
     .vtimeline-date{
         width:auto;
@@ -629,7 +640,8 @@ footer{
     #lead-content{
         position:relative;
         transform:none;
-        left:auto;top:auto
+        left:auto;
+        top:auto
     }
     #lead-content h1{
         font-size:3em
@@ -650,10 +662,10 @@ footer{
         display:none;
         z-index:999;
         animation:none;
-        bottom:0;height:100%
+        bottom:0;
+        height:100%
     }
-    #mobile-menu-open,
-    #mobile-menu-close{
+    #mobile-menu-open,#mobile-menu-close{
         display:block
     }
     #menu{
@@ -698,7 +710,8 @@ footer{
     .social{
         text-align:center
     }
-}@media only screen and (max-width: 480px){
+}
+@media only screen and (max-width: 480px){
     #lead-content h1{
         font-size:1.5em
     }
@@ -710,4 +723,3 @@ footer{
         padding:5px 10px
     }
 }
-
