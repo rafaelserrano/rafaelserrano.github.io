@@ -101,7 +101,7 @@ header.sticky{
 }
 #menu.active{
     display:block;
-    position:fixed
+
 }
 #mobile-menu-open{
     display:none;
