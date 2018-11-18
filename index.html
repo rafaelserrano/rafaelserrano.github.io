@@ -286,32 +286,10 @@
     <!-- End footer -->
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-	    <script src="js/scripts.min.js"></script>
-	    <script>
-setTimeout(function start (){
-  
-  $('.bar').each(function(i){  
-    var $bar = $(this);
-    $(this).append('<span class="count"></span>')
-    setTimeout(function(){
-      $bar.css('width', $bar.attr('data-percent'));      
-    }, i*100);
-  });
+    <script src="js/scripts.min.js"></script> 
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> 
+    
 
-$('.count').each(function () {
-    $(this).prop('Counter',0).animate({
-        Counter: $(this).parent('.bar').attr('data-percent')
-    }, {
-        duration: 2000,
-        easing: 'swing',
-        step: function (now) {
-            $(this).text(Math.ceil(now) +'%');
-        }
-    });
-});
-
-}, 500)
-	    </script>
 </body>
 
 </html>
