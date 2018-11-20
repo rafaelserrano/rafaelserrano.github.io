@@ -188,7 +188,7 @@ footer{
     border-radius:30px;
     transition:.5s ease all
 }
-.personal-image{
+img {
     border-radius: 50%;
 }
 .btn-rounded-white:hover{
