@@ -188,6 +188,9 @@ footer{
     border-radius:30px;
     transition:.5s ease all
 }
+img {
+    border-radius: 50%;
+}
 .btn-rounded-white:hover{
     color:#3498db;
     background:#fff;
